@@ -1,0 +1,157 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+background-color: #495C83;
+
+
+}
+h1{
+    color:  #e6e6e6;
+    font-size:64px;
+    margin-bottom: 40px;
+    padding: 1% 2% ;
+}
+.col{
+padding:  5% 10%;
+
+
+}
+.navbar{
+    padding: 2% 5%;
+}
+.nav-item{
+padding: 0 18px;
+
+}
+.image{
+    width: 45%;
+    height: auto;
+transform: rotate(25deg);
+position: absolute;
+
+}
+
+.container-fluid{
+    padding-bottom: 5%;
+}
+#features{
+    background-color: #fff;
+    padding:10% 18%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.feat{
+    padding: 3%;
+}
+.fa-4x{
+    margin-bottom: 20px;
+    color:  #7A86B6;
+}
+
+.fa-4x:hover{
+    color: #364F6B;
+}
+p{
+    padding-top: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+
+}
+
+#testimonials{
+    color:  #e6e6e6 ;
+    background-color:#7A86B6;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 10% 18% 4%;
+}
+
+#press{
+    background-color: #7A86B6;
+    text-align: center;
+}
+
+.manband{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 2%;
+    
+}
+
+.logos{
+    width: 12%;
+    margin: 20px 20px 50px;
+    padding: 2%;
+}
+
+h2{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#pricing{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+
+.head{
+    background-color: #495C83;
+    color: #fff;
+}
+
+.rowdiv{
+    margin-top: 5%;
+}
+
+#cta{
+    background-color: #495C83;
+    text-align: center;
+    padding: 10% 18%;
+}
+
+.cta-header{
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Montserrat' ;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.dload{
+   margin: 2%;
+}
+
+#footer{
+    padding: 5% 13%;
+    text-align: center;
+}
+
+.socialicon{
+    margin: 4% 2%;
+}
+
+@media(max-width:988px){
+
+    #title{
+        text-align: center;
+    }
+    .image{
+        position: static;
+        transform: rotate(0);  
+        
+        }
+
+
+}
